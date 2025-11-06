@@ -1,50 +1,97 @@
-# Welcome to your Expo app 👋
+# 👋 Bem-vindo ao projeto LVxerox
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é o repositório oficial do app LVxerox, desenvolvido com React Native e Expo.  
+Aqui você encontra tudo o que precisa para abrir, editar e rodar o projeto localmente no seu computador.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Como rodar o projeto no seu PC
 
+1. **Baixe o projeto**
+
+   - Faça o download do código-fonte (ou clone pelo GitHub, se preferir):  
+     ```bash
+     git clone https://github.com/seu-usuario/LVxerox.git
+     ```
+   - Depois, entre na pasta do projeto:
+     ```bash
+     cd App-xerox
+     ```
+
+2. **Instale o Node.js e o Expo**
+
+   - Se ainda não tiver o Node.js, baixe em:  
+     👉 https://nodejs.org/  
+   - Em seguida, instale o Expo CLI globalmente:
+     ```bash
+     npm install -g expo-cli
+     ```
+
+3. **Instale as dependências do projeto**
+
+   No diretório do projeto, rode:
    ```bash
    npm install
    ```
 
-2. Start the app
+4. **Inicie o app**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   Isso abrirá o Expo Developer Tools no seu navegador.  
+   Lá você pode escolher como executar o app:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - 📱 No celular: escaneie o QR Code com o aplicativo Expo Go  
+     (disponível na App Store e Google Play).  
+   - 💻 No emulador Android: clique em “Run on Android device/emulator”  
+     (requer Android Studio configurado)  
+   - 🍎 No simulador iOS: clique em “Run on iOS simulator”  
+     (disponível apenas no macOS)  
+   - 🌐 No navegador: clique em “Run in web browser” para testar a versão web.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🧩 Estrutura do projeto
 
-When you're ready, run:
+O código principal está dentro do diretório **app**, e segue o padrão de  
+roteamento baseado em arquivos do Expo Router.
 
+```
+App-xerox/
+│
+├── app/               # Telas principais do app
+├── assets/            # Imagens, ícones e logos
+├── scr/components/    # Componentes reutilizáveis
+├── package.json       # Dependências e scripts
+└── index.tsx            # Ponto de entrada do aplicativo
+```
+
+---
+
+## 🔁 Reiniciar o projeto do zero
+
+Se quiser limpar tudo e começar um app novo a partir desse template, use:
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Esse comando move o código atual para o diretório **app-example/**  
+e cria uma nova pasta **app/** em branco, pronta para começar.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 Recursos úteis
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- 📖 Documentação do Expo: https://docs.expo.dev/
+- 🧠 Guia do React Native: https://reactnative.dev/docs/getting-started
+- 💬 Comunidade do Expo no Discord: https://chat.expo.dev
+- 🐙 Expo no GitHub: https://github.com/expo/expo
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 💡 Dica
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Se o app não abrir automaticamente ou aparecer erro de conexão no Expo Go,  
+verifique se o celular e o PC estão na mesma rede Wi-Fi.

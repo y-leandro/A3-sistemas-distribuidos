@@ -40,11 +40,13 @@ export default function Index() {
 
   const items: Item[] = [
     { title: "Impressões", path: "/services/impressoes", image: require("@/assets/images/items/impressoes.png") },
-    { title: "Cópias", path: "/services/copias", image: require("@/assets/images/items/copias.png") },
-    { title: "Acabamentos", path: "/services/acabamentos", image: require("@/assets/images/items/acabamentos.png") },
-    { title: "Digitalização e Envio", path: "/services/digitalizacao", image: require("@/assets/images/items/digitalizacao.png") },
+    //{ title: "Cópias", path: "/services/copias", image: require("@/assets/images/items/copias.png") },
+    //{ title: "Acabamentos", path: "/services/acabamentos", image: require("@/assets/images/items/acabamentos.png") },
+    //{ title: "Digitalização e Envio", path: "/services/digitalizacao", image: require("@/assets/images/items/digitalizacao.png") },
     { title: "Serviços Extras", path: "/services/extra", image: require("@/assets/images/items/extras.png") },
     { title: "Outros", path: "/services/outros", image: require("@/assets/images/items/outros.png") },
+    { title: "Seus pedidos", path: "/services/pedidos", image: require("@/assets/images/items/pedidos.png") },
+    { title: "Gerenciar conta", path: "/services/conta", image: require("@/assets/images/items/conta.png") },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
