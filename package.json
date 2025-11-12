@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "react-native-toast-message": "^2.3.3"
+  }
+}
